@@ -1,0 +1,225 @@
+$main-color: #d8c565;
+$main-font: #fff;
+$sub-font: #000;
+$gray-font: #878787;
+$font-large: 20px;
+$font-small: 15px;
+
+//header 영역//
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $main-color;
+  padding: 10px;
+  p {
+    font-size: 0.8rem;
+    color: $main-font;
+  }
+  .logo {
+    width: 300px;
+    hr {
+      border: 0.5px solid #fff;
+      position: relative;
+      top: 25px;
+      width: 200%;
+      margin-left: -50%;
+    }
+    h3 {
+      background-color: #fff;
+      width: 100%;
+      color: #20939a;
+      font-size: $font-large;
+      text-align: center;
+      border-radius: 5px;
+      padding: 10px;
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+//main-img 영역//
+.main-img {
+  display: block;
+  margin: auto;
+}
+
+//Section#banner 영역//
+section#banner {
+  padding: 30px 0;
+  background-color: $main-color;
+  h3 {
+    text-align: center;
+    color: $main-font;
+    font-size: 2.5rem;
+    line-height: 5rem;
+  }
+  p {
+    text-align: center;
+    color: $main-font;
+    font-size: $font-large;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    .list {
+      display: inline-block;
+      text-align: center;
+      width: 100px;
+      line-height: 2rem;
+      h4 {
+        color: $main-font;
+        font-size: $font-large;
+      }
+    }
+  }
+}
+
+//section#coupon 영역//
+section#coupon {
+  display: flex;
+  justify-content: center;
+  line-height: 2rem;
+  .left {
+    width: 50%;
+    padding: 50px;
+    border-right: 1px solid $sub-font;
+    border-bottom: 1px solid $sub-font;
+    text-align: center;
+    h4 {
+      letter-spacing: 0.4rem;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    hr{
+        margin-bottom: 30px;
+    }
+    p {
+        margin-top: 10px;
+      font-size: 1rem;
+      &:nth-child(3) {
+        font-size: 1.3rem;
+      }
+      &:nth-child(5) {
+        color: $gray-font;
+      }
+    }
+  }
+  .right {
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+    border-bottom: 1px solid $sub-font;
+    img{
+        width: 80%;
+        height: 80%;
+    }
+    .download{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ea8e3c;
+        border-radius: 5px;
+        padding: 8px 0;
+        width: 45%;
+        margin-left: 28%;
+        gap: 10px;
+      p {
+        color: $main-font;
+      }
+      i {
+        color: $main-font;
+      }
+    }
+  }
+}
+
+
+//main영역//
+main{
+    padding: 30px;
+    margin-top: 70px;
+    .pick{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        h1{
+            font-size: 2.8rem;
+            border: solid 1px $sub-font;
+            border-radius: 100px;
+            padding: 10px 50px;
+        }
+    }
+    .card{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        .clothes{
+            border-radius: 20px;
+            margin-top: 30px;
+            box-shadow: 5px 5px 10px #000;
+            img{
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            h3{
+                background-color: $main-color;
+                border: 1px solid $sub-font;
+                border-radius: 50px;
+                color: $main-font;
+                text-align: center;
+                padding: 10px;
+                width: 45%;
+                position: relative;
+                top: -25px;
+                right: -80px;
+            }
+            h2{
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            h5{
+                text-align: center;
+                color: $gray-font;
+                font-size: $font-small;
+                margin-bottom: 20px;
+            }
+            p{
+                text-align: center;
+                background-color: #55432E;
+                color: $main-font;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                padding: 15px 0;
+            }
+        }
+    }
+}
+
+//footer 영역//
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: $main-color;
+    padding: 30px;
+    margin-top: 20px;
+    ul{
+        li{
+            font-size: large;
+            display: inline-block;
+            margin: 0 4rem;
+            color: $main-font;
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(4),
+            &:nth-child(5),
+            &:nth-child(6){
+                color: rgba(255,255,255,0.6);
+            }
+        }
+    }
+}

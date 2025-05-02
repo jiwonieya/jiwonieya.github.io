@@ -1,0 +1,239 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d8c565;
+  padding: 10px;
+}
+header p {
+  font-size: 0.8rem;
+  color: #fff;
+}
+header .logo {
+  width: 300px;
+}
+header .logo hr {
+  border: 0.5px solid #fff;
+  position: relative;
+  top: 25px;
+  width: 200%;
+  margin-left: -50%;
+}
+header .logo h3 {
+  background-color: #fff;
+  width: 100%;
+  color: #20939a;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.main-img {
+  display: block;
+  margin: auto;
+}
+
+section#banner {
+  padding: 30px 0;
+  background-color: #d8c565;
+}
+section#banner h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 5rem;
+}
+section#banner p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+section#banner nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0;
+}
+section#banner nav .list {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  line-height: 2rem;
+}
+section#banner nav .list h4 {
+  color: #fff;
+  font-size: 20px;
+}
+
+section#coupon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 2rem;
+}
+section#coupon .left {
+  width: 50%;
+  padding: 50px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+section#coupon .left h4 {
+  letter-spacing: 0.4rem;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+section#coupon .left hr {
+  margin-bottom: 30px;
+}
+section#coupon .left p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+section#coupon .left p:nth-child(3) {
+  font-size: 1.3rem;
+}
+section#coupon .left p:nth-child(5) {
+  color: #878787;
+}
+section#coupon .right {
+  width: 50%;
+  padding: 50px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+section#coupon .right img {
+  width: 80%;
+  height: 80%;
+}
+section#coupon .right .download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ea8e3c;
+  border-radius: 5px;
+  padding: 8px 0;
+  width: 45%;
+  margin-left: 28%;
+  gap: 10px;
+}
+section#coupon .right .download p {
+  color: #fff;
+}
+section#coupon .right .download i {
+  color: #fff;
+}
+
+main {
+  padding: 30px;
+  margin-top: 70px;
+}
+main .pick {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .pick h1 {
+  font-size: 2.8rem;
+  border: solid 1px #000;
+  border-radius: 100px;
+  padding: 10px 50px;
+}
+main .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+main .card .clothes {
+  border-radius: 20px;
+  margin-top: 30px;
+  -webkit-box-shadow: 5px 5px 10px #000;
+          box-shadow: 5px 5px 10px #000;
+}
+main .card .clothes img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+main .card .clothes h3 {
+  background-color: #d8c565;
+  border: 1px solid #000;
+  border-radius: 50px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 45%;
+  position: relative;
+  top: -25px;
+  right: -80px;
+}
+main .card .clothes h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+main .card .clothes h5 {
+  text-align: center;
+  color: #878787;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+main .card .clothes p {
+  text-align: center;
+  background-color: #55432E;
+  color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 15px 0;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #d8c565;
+  padding: 30px;
+  margin-top: 20px;
+}
+footer ul li {
+  font-size: large;
+  display: inline-block;
+  margin: 0 4rem;
+  color: #fff;
+}
+footer ul li:nth-child(2), footer ul li:nth-child(3), footer ul li:nth-child(4), footer ul li:nth-child(5), footer ul li:nth-child(6) {
+  color: rgba(255, 255, 255, 0.6);
+}/*# sourceMappingURL=style.css.map */
