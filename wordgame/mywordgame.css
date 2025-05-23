@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 화면 중앙 정렬을 위해 높이 지정 */
+    background-color: #f7f7f7;
+}
+
+div.wrap {
+    display: block;
+    width: 412px;
+    height: 917px;
+    background-color: #E1F3DA;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div.wrap>h2 {
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+    line-height: 150%;
+    letter-spacing: 7%;
+}
+
+div.wrap>i {
+    font-size: 7rem;
+    background-color: #fff;
+    padding: 1.7rem 3rem;
+    margin-bottom: 1rem;
+    border-radius: 100px;
+    border: 1px solid #E8D207;
+}
+
+div.wrap>h3 {
+    font-size: 24px;
+}
+
+div.wrap>p {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #fff;
+    border: 1px solid #E8D207;
+    border-radius: 25px;
+    padding: 20px 0;
+    margin: 1rem 30px 0 30px;
+    cursor: pointer;
+}
+
+div.game {
+    display: none;
+    width: 412px;
+    height: 917px;
+    background-color: #E1F3DA;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 2rem;
+    box-sizing: border-box;
+}
+
+div#users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+div#users>span>i {
+    font-size: 5rem;
+    background-color: #fff;
+    padding: 2rem 3rem;
+    margin-bottom: 1rem;
+    border-radius: 100px;
+    border: 1px solid #E8D207;
+}
+
+div#users>span>h4,
+div#users>span>h5 {
+    font-size: 24px;
+}
+
+div#users>span>h5 {
+    color: #52B42F;
+}
+
+div.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 10px;
+}
+
+div.message>input {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #52B42F;
+    border: 1px solid #E8D207;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    cursor: text; /* pointer에서 text로 변경 */
+    width: 70%;
+}
+
+div.message>button {
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #E8D207;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+div.game>p#word {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+div#history {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #787777;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    margin: 20px;
+    word-break: keep-all; 
+}
+
+#history>div {
+    white-space: nowrap;
+}
+
+.mine {
+    color: #52B42F;
+}
+
+.not-mine {
+    color: #000;
+}
