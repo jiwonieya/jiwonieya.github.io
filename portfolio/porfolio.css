@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #F6FD3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin-top: 20px;
+}
+
+.ment {
+    width: 480px;
+    margin: 0 auto 20px;
+}
+
+.small {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small>#h4-1,
+.small>#h4-2 {
+    font-weight: 600; /* SemiBold */
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+h1 {
+    font-weight: 700; /* Bold */
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 15px;
+    color: #000;
+    text-shadow: 3px 3px #fff;
+}
+
+.img-slide {
+    width: 480px;
+    /* 슬라이드 창 너비 */
+    overflow: hidden;
+    /* 넘치는 이미지 숨김 */
+}
+
+.img-list {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.img-list>img {
+    width: 480px;
+    height: 600px;
+}
+
+.img-btn {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 20px;
+    background-color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.explain {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700; /* Bold */
+    font-size: 60px;
+    letter-spacing: 10px;
+    color: #000;
+    text-shadow: 3px 3px #fff;
+}
+
+.explain>#h4-3{
+    font-weight: 600; /* SemiBold */
+    font-size: 20px;
+    letter-spacing: 4px;
+}
